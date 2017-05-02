@@ -1,2 +1,3 @@
 # KPArcos-website
-Wordpress template for website http://www.clubpiraguismoarcos.es
+Tema de Wordpress creado para la web http://www.clubpiraguismoarcos.es
+Usando Material Design Lite.
