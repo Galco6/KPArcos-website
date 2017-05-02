@@ -1,0 +1,564 @@
+/* 
+Theme Name: KPArcos
+Theme URL:
+Description: Tema KPArcos
+Version: 1
+Author: Víctor Galvín 
+Author URL:
+*/
+
+body {
+  margin: 0;
+}
+
+body a {
+  color: #212121;
+}
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #212121;
+  color: #fff;
+}
+
+::selection {
+  background-color: #212121;
+  color: #fff;
+}
+
+.header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.mobile-title {
+  display: none !important;
+}
+
+.logo-image {
+  height: 56px;
+  width: 56px;
+}
+
+.header {
+  overflow: visible;
+  background-color: #212121;
+}
+
+  .header .material-icons {
+    color: #fff !important;
+  }
+  
+    .header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #fff;
+  }
+  
+    .header .page_item a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .navigation-container {
+    direction: rtl;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+    .navigation {
+    direction: ltr;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+  }
+  
+  
+    .navigation .page_item {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+  
+      .navigation ul li:hover {
+      border-bottom: 4px solid #FFEB3B;
+    }
+
+.navigation ul li {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+.drawer {
+  border-right: none;
+}
+
+  .drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+  
+  .drawer .page_item.page_item {
+    font-size: 14px;
+    color: #757575;
+  }
+  
+  .drawer span.page_item.page_item {
+    color: #212121;
+  }
+
+  .drawer .mdl-layout-title {
+    position: relative;
+    background: #212121;
+    height: 160px;
+  }
+  
+    .drawer .logo {
+      position: absolute;
+      bottom: 16px;
+    }
+
+    .drawer ul li {
+      list-style: none;
+      height: 47px;
+    }
+
+    .drawer ul li a {
+      text-decoration: none;
+    }
+
+.portada {
+  height: calc(100vh - 100px);
+  background: url('images/portada.jpg') center / cover;
+  color: #fff;
+}
+
+.portada .portada-content {
+  padding-top: 10%;  
+}
+
+.intro-kayakpolo {
+  width: 100%;
+  height: calc(100vh - 200px);
+  margin-top: 70px;
+}
+
+.intro-kayakpolo .image-intro {
+width: 25%;
+max-height: 350px;
+height: auto;
+float: left;
+margin-left: 60px;
+}
+
+.intro-kayakpolo .image-intro img {
+width: 100%;
+height: 100%;
+}
+
+.intro-kayakpolo-content {
+  width: 50%;
+  margin-right: 100px;
+  float: right;
+  overflow: hidden;
+}
+
+.intro-kayakpolo-content p {
+  font-size: 16px;
+  line-height: 30px
+}
+
+hr {
+  border-width: 3px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  border-color: #FFEB3B;
+}
+
+
+.quienes-somos-image {
+  width: 100%;
+  height: 500px;
+  background: url('images/quienes-somos.jpg')center / cover;
+}
+
+.intro-quienes-somos {
+  margin-top: 40px;
+  color: #fff;
+  background-color: #757575;
+  
+}
+
+.intro-quienes-somos a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.quienes-somos-title {
+  width: 100%;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro-quienes-somos .quienes-somos-content {
+  padding-bottom: 50px;
+  padding-right: 200px;
+  padding-left: 100px;
+}
+
+.intro-quienes-somos .quienes-somos-content p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: roboto;
+  font-stretch: normal;
+}
+
+.intro-donde-estamos {
+  margin-top: 40px;
+  height: calc(100vh + 100px);
+  background: url('images/lago-arcos-kayakpolo.png') center / cover;
+}
+
+.intro-donde-estamos p {
+  width: 80%;
+  margin: auto;
+}
+
+.intro-donde-estamos a {
+  text-decoration: none;
+}
+
+/* NOTICIAS*/
+
+.blog-layout {
+  background-color: #EEEEEE;
+}
+
+.blog-content {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.post-layout {
+  width: 67%;
+  display: block;
+  float: right;
+}
+
+.sidebar {
+  width: 30%;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.post {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 370px;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+
+.post-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 390px;
+
+}
+
+.post-title a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+  color: #757575;
+}
+
+.post-actions {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.post-actions .date {
+  font-size: 14px;
+  color: #757575;
+  font-style: italic;
+}
+
+.post-actions .date i {
+  font-size: 18px;
+}
+
+.post-summary p {
+  color: #757575;
+  line-height: 2;
+  font-size: 16px;
+}
+
+/* ENTRY */
+
+.entry-content {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.entry-content .post-title {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.entry-content .post-title a {
+  font-size: 34px;
+}
+
+.entry-content div {
+  max-width: 100%;
+}
+
+.entry-content img {
+  max-width: 100% !important;
+}
+
+.entry-content .post-actions {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.entry-content .wp-caption-text {
+  font-size: 10px;
+  color: #212121;
+  font-style: italic;
+}
+
+.entry-content p {
+  color: #616161;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.entry-content .post-summary img {
+  width: 60%;
+  height: auto;
+}
+
+.entry-content p a {
+  color: #212121;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+}
+
+.foogallery-album-gallery-list .foogallery-pile .foogallery-pile-inner {
+  text-align: center;
+} 
+
+.foogallery-album-gallery-list .foogallery-pile h3 {
+  font-size: 22px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  overflow: hidden;
+}
+
+.sidebar .sidebar-contacto {
+  background-color: #616161;
+  color: #fff;
+}
+
+.sidebar-contacto > .mdl-card__title {
+  color: #fff;
+}
+
+.sidebar-contacto {
+  border-left: 6px solid #FFD600;
+}
+
+.sidebar .sidebar-contacto .mdl-card__subtitle-text {
+  color: #212121;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.sidebar .sidebar-contacto .mdl-card__supporting-text p {
+  font-weight: normal;
+  color: #EEEEEE;
+}
+
+.sidebar .mdl-card {
+  width: 85%;
+  margin-bottom: 40px;
+}
+
+.sidebar .mdl-card img {
+  width: 100%;
+}
+
+.sidebar .redes-sociales .iconos-redes-sociales {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sidebar .redes-sociales .iconos-redes-sociales i {
+  font-size: 40px;
+  color: #212121;
+}
+
+.sidebar .redes-sociales .iconos-redes-sociales button {
+  margin: 15px;
+}
+
+.sidebar .temporada .mdl-card__subtitle-text {
+  color: #212121;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.sidebar .temporada .mdl-card__supporting-text p {
+  font-weight: normal;
+  color: #616161;
+}
+
+/**TRIBE EVENTS**/
+
+#tribe-events-content a, .tribe-events-adv-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, .tribe-events-back a, .tribe-events-back a:hover, .tribe-events-event-meta a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-list-widget .tribe-events-widget-link a:hover, ul.tribe-events-sub-nav a, ul.tribe-events-sub-nav a {
+  color: #212121;
+  font-weight: bold;
+}
+
+/**** MOBILE LAYOUT ****/
+@media (max-width: 900px) {
+  .navigation-container {
+    display: none;
+  }
+
+  .title {
+    display: none !important;
+  }
+
+  .mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  .portada-title {
+    font-size: 60px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .portada-subtitle {
+    font-size: 20px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .intro-kayakpolo {
+    height: auto;
+    overflow: hidden;
+  }
+
+  .intro-kayakpolo .image-intro {
+    display: inline-block;
+    width: 200px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    max-height: 300px;
+  }
+
+    .intro-kayakpolo .intro-kayakpolo-content {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .quienes-somos-image {
+  width: 100%;
+  height: 180px;
+  background-image: url('images/quienes-somos.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+.intro-quienes-somos .quienes-somos-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.post-layout {
+  width: 100%;
+  margin: 0;
+}
+
+.post-layout .entry-content {
+  padding: 0;
+}
+
+.post-layout .post {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px; 
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 240px;
+}
+
+}
